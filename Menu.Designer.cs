@@ -47,11 +47,6 @@
             System.Windows.Forms.Button button2;
             System.Windows.Forms.Button button1;
             System.Windows.Forms.Button button13;
-            System.Windows.Forms.Button button18;
-            System.Windows.Forms.Button button17;
-            System.Windows.Forms.Button button16;
-            System.Windows.Forms.Button button15;
-            System.Windows.Forms.Button button14;
             this.Barra_titulo = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -78,12 +73,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.PanelContenedor = new System.Windows.Forms.Panel();
-            this.panel14 = new System.Windows.Forms.Panel();
-            this.panel24 = new System.Windows.Forms.Panel();
-            this.panel23 = new System.Windows.Forms.Panel();
-            this.panel22 = new System.Windows.Forms.Panel();
-            this.panel21 = new System.Windows.Forms.Panel();
-            this.panel20 = new System.Windows.Forms.Panel();
             btnReport5 = new System.Windows.Forms.Button();
             btnReport4 = new System.Windows.Forms.Button();
             btnRepor3 = new System.Windows.Forms.Button();
@@ -103,16 +92,10 @@
             button2 = new System.Windows.Forms.Button();
             button1 = new System.Windows.Forms.Button();
             button13 = new System.Windows.Forms.Button();
-            button18 = new System.Windows.Forms.Button();
-            button17 = new System.Windows.Forms.Button();
-            button16 = new System.Windows.Forms.Button();
-            button15 = new System.Windows.Forms.Button();
-            button14 = new System.Windows.Forms.Button();
             this.Barra_titulo.SuspendLayout();
             this.PnMenu.SuspendLayout();
             this.PanelSubmenuReportes.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel14.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnReport5
@@ -191,7 +174,7 @@
             btnReport1.Name = "btnReport1";
             btnReport1.Size = new System.Drawing.Size(202, 26);
             btnReport1.TabIndex = 7;
-            btnReport1.Text = "REPORTES";
+            btnReport1.Text = "REPORTES USUARIOS";
             btnReport1.UseVisualStyleBackColor = false;
             btnReport1.Click += new System.EventHandler(this.btnReport1_Click);
             // 
@@ -489,7 +472,6 @@
             // 
             // PanelSubmenuReportes
             // 
-            this.PanelSubmenuReportes.Controls.Add(this.panel14);
             this.PanelSubmenuReportes.Controls.Add(this.panel19);
             this.PanelSubmenuReportes.Controls.Add(this.panel18);
             this.PanelSubmenuReportes.Controls.Add(btnReport5);
@@ -670,139 +652,6 @@
             this.PanelContenedor.Size = new System.Drawing.Size(1277, 888);
             this.PanelContenedor.TabIndex = 4;
             // 
-            // panel14
-            // 
-            this.panel14.Controls.Add(this.panel20);
-            this.panel14.Controls.Add(this.panel21);
-            this.panel14.Controls.Add(button14);
-            this.panel14.Controls.Add(this.panel22);
-            this.panel14.Controls.Add(button15);
-            this.panel14.Controls.Add(button16);
-            this.panel14.Controls.Add(this.panel23);
-            this.panel14.Controls.Add(button17);
-            this.panel14.Controls.Add(this.panel24);
-            this.panel14.Controls.Add(button18);
-            this.panel14.Location = new System.Drawing.Point(8, 8);
-            this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(218, 190);
-            this.panel14.TabIndex = 12;
-            this.panel14.Visible = false;
-            // 
-            // panel24
-            // 
-            this.panel24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(23)))), ((int)(((byte)(2)))));
-            this.panel24.Location = new System.Drawing.Point(4, 0);
-            this.panel24.Name = "panel24";
-            this.panel24.Size = new System.Drawing.Size(10, 26);
-            this.panel24.TabIndex = 6;
-            // 
-            // button18
-            // 
-            button18.BackColor = System.Drawing.Color.Red;
-            button18.FlatAppearance.BorderSize = 0;
-            button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(23)))), ((int)(((byte)(2)))));
-            button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button18.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            button18.Image = global::CAIFGUA2.Properties.Resources.fileinterfacesymboloftextpapersheet_79740;
-            button18.Location = new System.Drawing.Point(13, 0);
-            button18.Name = "button18";
-            button18.Size = new System.Drawing.Size(202, 26);
-            button18.TabIndex = 7;
-            button18.Text = "REPORTES";
-            button18.UseVisualStyleBackColor = false;
-            // 
-            // panel23
-            // 
-            this.panel23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(23)))), ((int)(((byte)(2)))));
-            this.panel23.Location = new System.Drawing.Point(4, 32);
-            this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(10, 26);
-            this.panel23.TabIndex = 8;
-            // 
-            // button17
-            // 
-            button17.BackColor = System.Drawing.Color.Red;
-            button17.FlatAppearance.BorderSize = 0;
-            button17.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(23)))), ((int)(((byte)(2)))));
-            button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button17.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            button17.Image = global::CAIFGUA2.Properties.Resources.fileinterfacesymboloftextpapersheet_79740;
-            button17.Location = new System.Drawing.Point(13, 32);
-            button17.Name = "button17";
-            button17.Size = new System.Drawing.Size(202, 26);
-            button17.TabIndex = 9;
-            button17.Text = "REPORTES";
-            button17.UseVisualStyleBackColor = false;
-            // 
-            // panel22
-            // 
-            this.panel22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(23)))), ((int)(((byte)(2)))));
-            this.panel22.Location = new System.Drawing.Point(4, 64);
-            this.panel22.Name = "panel22";
-            this.panel22.Size = new System.Drawing.Size(10, 26);
-            this.panel22.TabIndex = 10;
-            // 
-            // button16
-            // 
-            button16.BackColor = System.Drawing.Color.Red;
-            button16.FlatAppearance.BorderSize = 0;
-            button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(23)))), ((int)(((byte)(2)))));
-            button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button16.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            button16.Image = global::CAIFGUA2.Properties.Resources.fileinterfacesymboloftextpapersheet_79740;
-            button16.Location = new System.Drawing.Point(13, 64);
-            button16.Name = "button16";
-            button16.Size = new System.Drawing.Size(202, 26);
-            button16.TabIndex = 11;
-            button16.Text = "REPORTES";
-            button16.UseVisualStyleBackColor = false;
-            // 
-            // panel21
-            // 
-            this.panel21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(23)))), ((int)(((byte)(2)))));
-            this.panel21.Location = new System.Drawing.Point(4, 96);
-            this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(10, 26);
-            this.panel21.TabIndex = 10;
-            // 
-            // button15
-            // 
-            button15.BackColor = System.Drawing.Color.Red;
-            button15.FlatAppearance.BorderSize = 0;
-            button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(23)))), ((int)(((byte)(2)))));
-            button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button15.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            button15.Image = global::CAIFGUA2.Properties.Resources.fileinterfacesymboloftextpapersheet_79740;
-            button15.Location = new System.Drawing.Point(13, 96);
-            button15.Name = "button15";
-            button15.Size = new System.Drawing.Size(202, 26);
-            button15.TabIndex = 11;
-            button15.Text = "REPORTES";
-            button15.UseVisualStyleBackColor = false;
-            // 
-            // panel20
-            // 
-            this.panel20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(23)))), ((int)(((byte)(2)))));
-            this.panel20.Location = new System.Drawing.Point(4, 128);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(10, 26);
-            this.panel20.TabIndex = 10;
-            // 
-            // button14
-            // 
-            button14.BackColor = System.Drawing.Color.Red;
-            button14.FlatAppearance.BorderSize = 0;
-            button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(23)))), ((int)(((byte)(2)))));
-            button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button14.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            button14.Image = global::CAIFGUA2.Properties.Resources.fileinterfacesymboloftextpapersheet_79740;
-            button14.Location = new System.Drawing.Point(13, 128);
-            button14.Name = "button14";
-            button14.Size = new System.Drawing.Size(202, 26);
-            button14.TabIndex = 11;
-            button14.Text = "REPORTES";
-            button14.UseVisualStyleBackColor = false;
-            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -821,7 +670,6 @@
             this.PnMenu.ResumeLayout(false);
             this.PanelSubmenuReportes.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel14.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -854,11 +702,5 @@
         private System.Windows.Forms.Panel panel15;
         private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.Panel PanelContenedor;
-        private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.Panel panel24;
-        private System.Windows.Forms.Panel panel20;
-        private System.Windows.Forms.Panel panel21;
-        private System.Windows.Forms.Panel panel22;
-        private System.Windows.Forms.Panel panel23;
     }
 }

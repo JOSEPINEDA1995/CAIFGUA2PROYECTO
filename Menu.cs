@@ -50,6 +50,7 @@ namespace CAIFGUA2
         private void btnReport1_Click(object sender, EventArgs e)
         {
             PanelSubmenuReportes.Visible = false;
+            abrirFromulario(new ReporteUsuar());
         }
 
         private void btnReport2_Click(object sender, EventArgs e)
@@ -93,6 +94,8 @@ namespace CAIFGUA2
         private void button1_Click(object sender, EventArgs e)
         {
             abrirFromulario(new FrmFichaUsuario());
+
+
         }
     }
 }
