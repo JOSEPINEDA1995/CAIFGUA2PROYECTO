@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmFichaUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFichaUsuario.Designer.cs">
+      <DependentUpon>FrmFichaUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="inicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmFichaUsuario.resx">
+      <DependentUpon>FrmFichaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="inicio.aa.resx">
       <DependentUpon>inicio.cs</DependentUpon>
     </EmbeddedResource>
@@ -115,6 +124,15 @@
       <Project>{0bcc8b88-2dab-4702-8cb9-8084d33c97c4}</Project>
       <Name>CapaLogica1</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-936289790-170x170.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fileinterfacesymboloftextpapersheet_79740.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fileinterfacesymboloftextpapersheet_797401.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

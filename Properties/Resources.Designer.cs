@@ -79,5 +79,35 @@ namespace CAIFGUA2.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fileinterfacesymboloftextpapersheet_79740 {
+            get {
+                object obj = ResourceManager.GetObject("fileinterfacesymboloftextpapersheet_79740", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fileinterfacesymboloftextpapersheet_797401 {
+            get {
+                object obj = ResourceManager.GetObject("fileinterfacesymboloftextpapersheet_797401", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_936289790_170x170 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-936289790-170x170", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

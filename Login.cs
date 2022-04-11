@@ -29,11 +29,12 @@ namespace CAIFGUA2
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {   
-            ClUsuarios usu = new ClUsuarios();
-            DataSet ds = new DataSet();
-            ds = usu.verifica(textBox1.Text, textBox2.Text);
-            
+        {   try
+            {
+                ClUsuarios usu = new ClUsuarios();
+                DataSet ds = new DataSet();
+                ds = usu.verifica(textBox1.Text, textBox2.Text);
+
 
                 String Codigo = ds.Tables[0].Rows[0]["tp_id"].ToString().Trim();
                 string usuario = ds.Tables[0].Rows[0]["usuario"].ToString().Trim();
@@ -45,14 +46,24 @@ namespace CAIFGUA2
                     {
                         Menu frm = new Menu();
                         this.Hide();
-                        frm.Show();
                         frm.usuario = ds;
+                        frm.Show();
+                        
                     }
                     else
                     {
-                       
+
                     }
                 }
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message);
+                textBox1.Text = "";
+                textBox2.Text = "";
+            }
+
+
             }
     }
 }
