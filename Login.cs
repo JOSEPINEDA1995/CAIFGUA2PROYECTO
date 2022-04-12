@@ -58,7 +58,7 @@ namespace CAIFGUA2
             }
             catch (Exception error)
             {
-                MessageBox.Show(error.Message);
+                MessageBox.Show("error no existe el usuario "+ error.Message);
                 textBox1.Text = "";
                 textBox2.Text = "";
             }

@@ -77,11 +77,23 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CAIFGUADataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="frmEscuela.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEscuela.Designer.cs">
+      <DependentUpon>frmEscuela.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmFichaUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmFichaUsuario.Designer.cs">
       <DependentUpon>FrmFichaUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInscripcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInscripcion.Designer.cs">
+      <DependentUpon>frmInscripcion.cs</DependentUpon>
     </Compile>
     <Compile Include="inicio.cs">
       <SubType>Form</SubType>
@@ -110,8 +122,14 @@
       <DependentUpon>ReporteUsuar.cs</DependentUpon>
     </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="frmEscuela.resx">
+      <DependentUpon>frmEscuela.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmFichaUsuario.resx">
       <DependentUpon>FrmFichaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInscripcion.resx">
+      <DependentUpon>frmInscripcion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Report1.rdlc" />
     <EmbeddedResource Include="inicio.aa.resx">

@@ -97,5 +97,15 @@ namespace CAIFGUA2
 
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            abrirFromulario(new frmInscripcion());
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            abrirFromulario(new frmEscuela());
+        }
     }
 }
