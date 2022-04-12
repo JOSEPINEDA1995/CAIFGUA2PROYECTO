@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaLogica1;
 
 namespace CAIFGUA2
 {
@@ -20,6 +21,16 @@ namespace CAIFGUA2
         private void FrmFichaUsuario_Load(object sender, EventArgs e)
         {
             lbFecha.Text = DateTime.Now.ToString("dd-MM-yyyy");
+            TblEstadoCivil tb = new TblEstadoCivil();
+            DataSet ds = new DataSet();
+            ds = tb.listarEstado();
+            int b = ds.Tables[0].Rows.Count;
+            for (int i = 0; i < b ; i++)
+            {
+
+                comboBox8.Items.Add(ds.Tables[0].Rows[i]["nombre"].ToString());     
+                    
+                    }
         }
 
         private void button1_Click(object sender, EventArgs e)
